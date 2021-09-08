@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .header {
+    background-color: black;
+    display: flex;
+    width: 100%;
+  }
+  .header:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+  }
+  .leftside {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px !important;
+    font-size: 1.05em;
+    flex-direction: row;
+  }
+  .middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+    display: flex;
+  
+    padding: 10px;
+  }
+  
+  .rightside {
+    display: flex;
+    flex: 1;
+  }
+  
+  .cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.05em;
+  }
+  .bag {
+    height: 20px;
+    padding-left: 5px;
+  }
+  
+  .giohang {
+    margin-left: 130px;
+  }
+  .search {
+    height: 20px;
+    padding-left: 50px;
+  }
+  .poster {
+    width: 100%;
+    margin-top: 0.5px;
+  }
+  .nam {
+    cursor: pointer;
+  }
+  .nu {
+    cursor: pointer;
+  }
+  .about {
+    cursor: pointer;
+  }
+  .giohang {
+    cursor: pointer;
+  }
+  .bag1 {
+    cursor: pointer;
+  }
+  .search {
+    cursor: pointer;
+  }
+  .blacklogo {
+    position: absolute;
+  }
+  .whitelogo {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-top: 14px;
+  }
+  .whitelogo:hover {
+    opacity: 0;
+  }
+  .banner {
+    width: 100%;
+    position: absolute;
+  }
+  .sale {
+    position: absolute;
+    color: white;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 1.5em;
+  }
+  .eve {
+    position: absolute;
+    font-size: 1.1em;
+    letter-spacing: 1em;
+    margin-left: 102px;
+    margin-top: 200px;
+  }
+  .co {
+    position: absolute;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin-left: 102px;
+    margin-top: 240px;
+  }
+  
+  .b1 {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 300px;
+    border: white solid 1px;
+    padding: 15px 60px 15px 60px;
+    cursor: pointer;
+  }
+  .b1:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .b2 {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 300px;
+    border: white solid 1px;
+    padding: 15px 45px 15px 45px;
+    cursor: pointer;}
+    .b2:hover {
+      color: black;
+      background-color: white;
+      transition: 0.5s;}
+  
