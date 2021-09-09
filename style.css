@@ -92,7 +92,6 @@ body {
 }
 
 .blacklogo {
-
   position: absolute;
   width: 100%;
   height: 80px;
@@ -104,7 +103,6 @@ body {
   opacity: 0;
 }
 .blacklogo:hover {
-  
   opacity: 1;
 }
 .banner {
@@ -161,5 +159,133 @@ body {
 .b2:hover {
   color: black;
   background-color: white;
+  transition: 0.5s;
+}
+.under {
+  background-color: rgb(211, 211, 211);
+  width: 100%;
+  margin-top: 570px;
+  display: flex;
+  flex-direction: row;
+
+  height: 50px;
+  color: black;
+}
+.ship {
+  display: flex;
+  flex: 1;
+
+  flex-direction: row;
+  justify-content: center;
+}
+.ship img {
+  height: 30px;
+  padding-right: 10px;
+  margin-top: 9px;
+  font-size: 20px;
+}
+.ship h6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.85em;
+  font-weight: lighter;
+}
+.insu {
+  display: flex;
+  flex: 1;
+
+  flex-direction: row;
+  justify-content: center;
+}
+.insu img {
+  height: 28px;
+
+  padding-right: 7px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.insu h6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.85em;
+  font-weight: lighter;
+}
+.exchange {
+  display: flex;
+  flex: 1;
+
+  flex-direction: row;
+  justify-content: center;
+}
+.exchange img {
+  height: 25px;
+  padding-right: 7px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.exchange h6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.85em;
+  font-weight: lighter;
+}
+.protype {
+  margin: 20px 70px 0px 70px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.women {
+  background-color: firebrick;
+  display: flex;
+  flex: 1;
+}
+.women img {
+  height: 270px;
+  padding-right: 3px;
+  position: absolute;
+}
+.wocont {
+  z-index: 1;
+  font-size: 1.5em;
+  margin-top: 230px;
+  margin-left: 40px;
+}
+.men {
+  background-color: yellow;
+  display: flex;
+  flex: 1;
+}
+.acc {
+  background-color: gray;
+  display: flex;
+  flex: 1;
+}
+.ar11 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+  height: fit-content;
+  width: 35px;
+  margin-top: 220px;
+  margin-left: 330px;
+  border: white solid;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ar11 svg {
+  padding: 5px;
+}
+.ar11:hover {
+  background-color: white;
+  color: black;
   transition: 0.5s;
 }
